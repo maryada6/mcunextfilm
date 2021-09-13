@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Kaisei+Opti:wght@500&family=Poppins:wght@200&family=Roboto:wght@100&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Kaisei Opti", serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  color: white;
+}
+
+.next-button{
+  border:none;
+  background-color: black;
+  color: lightgreen;
+  text-decoration: underline ;
+  
+}
+
+
+
+.container {
+  width: 60vw;
+  margin: auto;
+  font-family: "Poppins", sans-serif;
+}
+
+.movie-img {
+  border: 2px solid white;
+}
+
+footer {
+  width: 100%;
+}
+
+footer a {
+  margin: 5px;
+  color: white;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+
+.highlight{
+  color:lightgreen;
+}
+
+@media screen and (max-width: 500px) {
+  .movie-img {
+    width: 70vw;
+  }
+  .container{
+    width: 95vw;
+  }
+}
