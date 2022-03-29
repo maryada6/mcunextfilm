@@ -44,6 +44,17 @@ footer a {
   color:lightgreen;
 }
 
+
+
+@media screen and (max-width: 1500px) {
+  .movie-img {
+    height: 80vh;
+  }
+  .container{
+    width: 95vw;
+  }
+}
+
 @media screen and (max-width: 500px) {
   .movie-img {
     width: 70vw;
